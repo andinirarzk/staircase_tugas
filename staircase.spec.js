@@ -1,7 +1,7 @@
 import { expect } from "chai";
 import staircase from "./staircase.js"
 
-describe('Membuat staircase', function(){
+describe('staircase check', function(){
     it('K_01 - Parameter n bukan integer', function(){
         const check = staircase('test',' ', '#')
         expect(check).to.equal('parameter n tidak boleh selain number');
